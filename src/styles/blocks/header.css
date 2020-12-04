@@ -1,0 +1,29 @@
+header {
+   background-color: var(--gris-light);
+}
+
+.items {
+    display: flex;
+    max-height: 30px;
+}
+
+header img {
+    width: 30px;
+}
+
+.boton-modo {
+    width: 85px;
+    margin-left: auto;
+    background-color: var(--gris);
+}
+
+.text-display {
+    display: none;
+}
+
+@media (min-width:800px) {
+    .text-display {
+        display: block;
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "NeonAbsoluteSans";
+    src: url("styles/NeonAbsoluteSans.ttf");
+  }
+
+html {
+    --font1:"NeonAbsoluteSans", sans-serif;
+    --font2:"Yanone Kaffeesatz", sans-serif; 
+
+    --display: 22px var(--font1);
+    --display-bold: bold 22px var(--font1);
+    --encabezado: 26px var(--font2);
+    --titulo-light: lighter 22px var(--font2);
+    --titulo-bold: bold 22px var(--font2);
+    --subencabezado-light: lighter 18px var(--font2);
+    --cuerpo: 16px var(--font2);
+    --cuerpo-light: lighter 16px var(--font2);
+}
+
+@media (min-width: 900px) {
+    html {
+        --display: 24px var(--font1);
+        --display-bold: bold 24px var(--font1);
+        --encabezado: 36px var(--font2);
+        --titulo-light: lighter 24px var(--font2);
+        --titulo-bold: bold 24px var(--font2);
+        --subencabezado-light: lighter 20px var(--font2);
+    }
+}

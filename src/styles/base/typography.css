@@ -1,0 +1,35 @@
+body {
+    color: var(--violeta);
+}
+
+.text-display {
+    font: var(--display);
+}
+
+.text-display-bold {
+    font: var(--display-bold);
+}
+
+.text-encabezado {
+    font: var(--encabezado);
+}
+
+.text-title-light {
+    font: var(--title-light);
+}
+
+.text-title-bold {
+    font: var(--title-bold);
+}
+
+.text-subencabezado-light {
+    font: var(--subencabezado-light);
+}
+
+.text-cuerpo {
+    font: var(--cuerpo);
+}
+
+.text-cuerpo-light {
+    font: var(--cuerpo-light);
+}

@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+}
+.container {
+    padding: var(--container-padding);
+}
+  
+.grid {
+    display: grid;
+    grid-template-columns: var(--grid-main);
+    grid-auto-rows: min-content;
+    grid-gap: 0 var(--grid-gap);
+}
