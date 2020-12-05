@@ -1,5 +1,4 @@
 footer{
-    background-color: var(--gris-light);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -11,8 +10,8 @@ footer .redes {
     margin: auto;
 }
 
-footer img {
+i {
     margin: auto;
-    height: 30px;
-    background-color: var(--gris);
+    font-size: 20px;
+    color: var(--violeta);
 }

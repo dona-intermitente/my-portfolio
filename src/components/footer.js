@@ -2,9 +2,9 @@ function Footer() {
     return (
       <footer className="container">
         <div className="redes">     
-          <img src="" alt="instagram"/>
-          <img src="" alt="behance"/>
-          <img src="" alt="github"/>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-behance"></i>
+          <i class="fab fa-github"></i>
         </div>
       </footer>
     );
