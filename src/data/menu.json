@@ -7,9 +7,9 @@
     },
     {
        "id":2,
-       "name":"Proyects",
-       "alias":"proyects",
-       "url":"/proyects/"
+       "name":"Projects",
+       "alias":"projects",
+       "url":"/projects/"
     },
     {
        "id":3,

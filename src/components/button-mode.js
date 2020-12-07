@@ -1,4 +1,4 @@
-function Modo() {
+function ButtonMode() {
     return (
         <label className="switch">
             <input type="checkbox"></input>
@@ -7,4 +7,4 @@ function Modo() {
     );
   }
   
-export default Modo;
+export default ButtonMode;

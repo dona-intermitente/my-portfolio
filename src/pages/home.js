@@ -3,7 +3,7 @@ function Home() {
       <div className="container grid">
         <div className="col-4">
           <h1 className="text-encabezado">Pagina de inicio</h1>
-          </div>
+        </div>
       </div>
     );
   }

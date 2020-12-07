@@ -1,25 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import 'styles/styles.css';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import Header from 'components/header.js';
-import Home from 'pages/home.js';
-import Footer from 'components/footer';
-
-function Content() {
-  return (
-    <div>
-      <Header/>
-      <Home/>
-      <Footer/>
-    </div>
-  );
-}
-export default Content;
+import 'styles/styles.css'
+import Base from 'components/base'
 
 ReactDOM.render(
   <React.StrictMode>  
-    <Content/>
+    <Base/>
   </React.StrictMode>,
   document.getElementById('root')
 );

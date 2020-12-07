@@ -1,5 +1,5 @@
-import Logo from 'images/logo.svg';
-import BotonModo from 'components/boton-modo.js'
+import Logo from 'images/logo.svg'
+import ButtonMode from 'components/button-mode'
 
 function Header() {
   return (
@@ -7,7 +7,7 @@ function Header() {
       <div className="items">
         <img src={Logo} alt="logo"/>
         <h1 className="text-display">Dona Intermitente</h1>
-        <BotonModo/>
+        <ButtonMode/>
       </div>
     </header>
   );
