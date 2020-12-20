@@ -5,7 +5,9 @@ function Header() {
   return (
     <header className="container">
       <div className="items">
-        <img src={Logo} alt="logo"/>
+        <a href="/">
+          <img src={Logo} alt="logo"/>
+        </a>
         <h1 className="text-display">Dona Intermitente</h1>
         <ButtonMode/>
       </div>

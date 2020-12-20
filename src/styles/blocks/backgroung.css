@@ -1,0 +1,27 @@
+.background svg {
+    position: absolute;
+}
+
+.zic, .onda {
+    width: 160px;
+    stroke-width: 3px;
+    fill: none;
+}
+
+.zic {
+    height: 60px;
+    stroke: var(--yellow);
+}
+
+.onda {
+    height: 30px;
+    stroke: var(--pink);
+}
+
+.circles {
+    width: 60px;
+    height: 60px;
+    fill: none;
+    stroke-width: 3px;
+    stroke: var(--violet-light);
+} 

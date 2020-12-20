@@ -3,13 +3,22 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto;
 }
+
+.layout{
+    position: absolute;
+    top: 70px;
+    bottom: 60px;
+    overflow: hidden;
+}
+
 .container {
     padding: var(--container-padding);
+    width: 100%;
 }
   
 .grid {
     display: grid;
     grid-template-columns: var(--grid-main);
-    grid-auto-rows: min-content;
     grid-gap: 0 var(--grid-gap);
+    min-height: 100%; 
 }

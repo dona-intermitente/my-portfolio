@@ -1,0 +1,71 @@
+.projects, .working {
+    display: flex;
+    margin: auto;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.working {
+    text-align: right;
+}
+
+.contact {
+    display: flex;
+    height: 75%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.projects .line {
+    border-bottom: 3px solid var(--gray-light);
+    border-left: 3px solid var(--gray-light);
+    height: 80%;
+}
+
+.working .line {
+    border-bottom: 3px solid var(--gray-light);
+    border-right: 3px solid var(--gray-light);
+    height: 50%;
+}
+
+.contact .line {
+    border-bottom: 3px solid var(--gray-light);
+    border-right: 3px solid var(--gray-light);
+    width: 30%;
+    height: 60%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    bottom: 30%;
+    right: 30%;
+    left: 30%;
+}
+
+.image a {
+    width: 300px;
+    max-height: 300px;
+}
+
+/*Background*/
+
+.zic {
+    bottom: 100px;
+    left: 80%;
+}
+
+.onda {
+    top: 20%;
+    right: 80%;
+}
+
+.circles {
+    bottom: 0px;
+    right: 80%;
+}

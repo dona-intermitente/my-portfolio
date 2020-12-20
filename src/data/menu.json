@@ -1,32 +1,20 @@
 [
     {
        "id":1,
-       "name":"Home",
-       "alias":"home",
-       "url":"/"
-    },
-    {
-       "id":2,
        "name":"Projects",
        "alias":"projects",
        "url":"/projects/"
     },
     {
-       "id":3,
+       "id":2,
        "name":"Working",
        "alias":"working",
        "url":"/working/"
     },
-    {
-      "id":4,
-      "name":"Anatomy",
-      "alias":"anatomy",
-      "url":"/anatomy/"
-   },
    {
-      "id":5,
+      "id":3,
       "name":"Contact",
       "alias":"contact",
       "url":"/contact/"
    }
- ]
+]

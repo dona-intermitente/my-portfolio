@@ -1,12 +1,10 @@
-/*reset*/
-@import url("reset.css");
-
 /*variables*/
 @import url("variables/v-grid.css");
 @import url("variables/v-color.css");
 @import url("variables/v-typography.css");
 
 /*base*/
+@import url("base/reset.css");
 @import url("base/grid.css");
 @import url("base/grid-cols.css");
 @import url("base/typography.css");
@@ -19,6 +17,7 @@
 @import url("pages/contact.css");
 
 /*Blocks*/
+@import url("blocks/backgroung.css");
 @import url("blocks/header.css");
 @import url("blocks/footer.css");
 @import url("blocks/button-mode.css");

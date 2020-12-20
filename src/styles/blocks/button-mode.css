@@ -9,7 +9,7 @@
     width: 85px;
     height: 30px;
     padding: 2px;
-    border: 2px solid var(--violeta);
+    border: 2px solid var(--violet);
     border-radius: 10px;
 }
  
@@ -19,14 +19,14 @@
     height: 22px;
     width: 50px;
     padding: 4% 15%;
-    border: 1px solid var(--violeta);
+    border: 1px solid var(--violet);
     border-radius: 7px;
     -webkit-transition: .4s;
     transition: .4s;
 }
 
 input:checked + .slider {
-    border-color: var(--violeta-light);
+    border-color: var(--violet-light);
 }
   
 input:checked + .slider:before {
@@ -34,6 +34,6 @@ input:checked + .slider:before {
     -ms-transform: translateX(27px);
     transform: translateX(27px);
     content: "Light";
-    border-color: var(--violeta-light);
-    color: var(--azul);
+    border-color: var(--violet-light);
+    color: var(--blue);
 }

@@ -1,7 +1,6 @@
 footer{
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    width: 100%;
 }
 
 footer .redes {
@@ -13,5 +12,5 @@ footer .redes {
 i {
     margin: auto;
     font-size: 20px;
-    color: var(--violeta);
+    color: var(--gray-light);
 }
