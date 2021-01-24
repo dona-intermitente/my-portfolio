@@ -1,19 +1,19 @@
 [
     {
        "id":1,
-       "name":"Projects",
+       "name":"Proyectos",
        "alias":"projects",
        "url":"/projects/"
     },
     {
        "id":2,
-       "name":"Working",
+       "name":"Trabajando en",
        "alias":"working",
        "url":"/working/"
     },
    {
       "id":3,
-      "name":"Contact",
+      "name":"Contacto",
       "alias":"contact",
       "url":"/contact/"
    }

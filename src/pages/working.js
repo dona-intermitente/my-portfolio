@@ -1,7 +1,12 @@
+import Title from 'components/title';
+import Data from 'data/title';
+
 function Working() {
     return (
-      <div className="container">
-        <div>pagina de procesos</div>
+      <div className="grid">
+        <div className="col-4">
+          <Title data={Data.working}/>
+        </div>
       </div>
     );
   }

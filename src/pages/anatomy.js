@@ -1,7 +1,12 @@
+import Title from 'components/title';
+import Data from 'data/title';
+
 function Anatomy() {
     return (
-      <div className="container">
-        <div>pagina sobre mi</div>
+      <div className="grid">
+        <div className="col-4">
+          <Title data={Data.anatomy}/>
+        </div>
       </div>
     );
   }

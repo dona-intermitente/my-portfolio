@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {Link} from "react-router-dom"
 
-class prueba extends Component {
+class Mapa extends Component {
     render() {
         return (
             <React.Fragment>
@@ -26,4 +26,4 @@ class prueba extends Component {
     }
 }
 
-export default prueba;
+export default Mapa;

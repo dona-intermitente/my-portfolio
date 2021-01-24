@@ -5,7 +5,7 @@ import Image from "images/logo.svg";
 function Home () {
   return (
     <div className="grid text-encabezado">
-      <Mapa text="Anatomia de una dona" data={Menu} routeImg="/anatomy/" img={Image} alt="dona"/>
+      <Mapa text="Anatomía de una dona" data={Menu} routeImg="/anatomy/" img={Image} alt="dona"/>
     </div>
   )
 }

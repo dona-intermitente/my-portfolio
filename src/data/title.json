@@ -1,0 +1,26 @@
+{ 
+    "projects": [
+        {
+            "title":"Proyectos",
+            "subtitle":"la forma de las ideas"
+        }
+    ],
+    "working": [
+        {
+           "title":"Trabajando en",
+           "subtitle":"arte en proceso"
+        }
+    ],
+    "anatomy": [
+        {
+           "title":"Anatomía de una dona",
+           "subtitle":"mis ingredientes"
+        }
+    ],
+    "contact": [
+        {
+           "title":"Contacto",
+           "subtitle":"Quieres hacer un proyecto conmigo?"
+        }
+    ]
+}
