@@ -1,0 +1,27 @@
+.carousel {
+    display: flex;
+    align-items: flex-end;
+}
+
+.item img {
+    margin-bottom: 30px;
+}
+
+.item h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fas{
+    color: var(--gray);
+    cursor: pointer;
+}
+
+.disable {
+    color: var(--gray-light);
+    cursor: auto;
+}
+
+.fas:hover {
+    color: var(--violet);
+}
