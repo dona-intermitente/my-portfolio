@@ -1,11 +1,10 @@
 import Mapa from 'components/mapa.js'
-import Menu from "data/menu.json"
-import Image from "images/logo.svg";
+import {Menu, Imagen} from 'data/menuData';
 
 function Home () {
   return (
-    <div className="grid text-encabezado">
-      <Mapa text="Anatomía de una dona" data={Menu} routeImg="/anatomy/" img={Image} alt="dona"/>
+    <div className="grid menu text-encabezado">
+      <Mapa data={Menu} imagen={Imagen} />
     </div>
   )
 }

@@ -25,18 +25,18 @@ class Slider extends Component {
                 },
                 }}
             >
-              {this.props.data.map(s => (
-                <div className="item">
-                    <img src={s.img} alt={s.text2}/>
-                    <h1 className="text-cuerpo">
-                        {s.text1}
-                    </h1>
-                    <h1 className="text-cuerpo">
-                        {s.text2}
-                    </h1>
-                </div>
-                )
-              )}
+                {this.props.data.map(s => (
+                    <div className="item">
+                        <img src={s.img} alt={s.text2}/>
+                        <h1 className="text-body">
+                            {s.text1}
+                        </h1>
+                        <h1 className="text-body">
+                            {s.text2}
+                        </h1>
+                    </div>
+                    )
+                )}
             </Carousel>
         )
     }

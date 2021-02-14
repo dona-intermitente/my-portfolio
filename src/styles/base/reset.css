@@ -39,10 +39,6 @@ p {
   margin-bottom: 0;
 }
 
-input {
-  display:none;
-}
-
 ol, ul {
   list-style-type: none;
   margin: 0;

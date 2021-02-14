@@ -3,6 +3,10 @@
     position: relative;
 }
 
+.switch input {
+    display: none;
+}
+
 .slider {
     display: block;
     cursor: pointer;

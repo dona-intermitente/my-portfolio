@@ -1,6 +1,11 @@
+.menu {
+    position: relative;
+    align-items: center;
+    justify-items: center;
+}
+
 .projects, .working {
     display: flex;
-    margin: auto;
     height: 100%;
     width: 50%;
     justify-content: center;
@@ -9,12 +14,12 @@
 
 .working {
     text-align: right;
-    align-items: flex-end;
 }
 
 .contact {
     display: flex;
     height: 75%;
+    width: 100%;
     align-items: flex-end;
     justify-content: flex-end;
 }
@@ -22,13 +27,12 @@
 .projects .line {
     border-bottom: 3px solid var(--gray-light);
     border-left: 3px solid var(--gray-light);
-    height: 80%;
+    height: 100%;
 }
 
 .working .line {
     border-bottom: 3px solid var(--gray-light);
     border-right: 3px solid var(--gray-light);
-    width: 100%;
     height: 30%;
 }
 
@@ -41,18 +45,17 @@
 
 .image {
     display: flex;
-    justify-content: center;
-    align-items: center;
     position: absolute;
-    top: 30%;
-    bottom: 30%;
-    right: 30%;
-    left: 30%;
 }
 
-.image a {
-    width: 300px;
-    max-height: 300px;
+.image img {
+    min-width: 200px;
+}
+
+@media (min-width: 800px) {
+    .image img {
+        min-width: 250px;
+    }
 }
 
 /*Background*/

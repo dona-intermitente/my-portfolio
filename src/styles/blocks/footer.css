@@ -9,8 +9,13 @@ footer .redes {
     margin: auto;
 }
 
-i {
+.redes a {
     margin: auto;
     font-size: 20px;
     color: var(--gray-light);
+}
+
+i:hover {
+    color: var(--violet);
+    cursor: pointer;
 }

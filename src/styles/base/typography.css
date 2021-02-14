@@ -26,10 +26,10 @@ body {
     font: var(--subencabezado-light);
 }
 
-.text-cuerpo {
-    font: var(--cuerpo);
+.text-body {
+    font: var(--body);
 }
 
-.text-cuerpo-light {
-    font: var(--cuerpo-light);
+.text-body-light {
+    font: var(--body-light);
 }
