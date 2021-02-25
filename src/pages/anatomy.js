@@ -1,5 +1,5 @@
 import Title from 'components/title'
-import Data from 'data/title' 
+import Data from 'data/title'
 
 function Anatomy() {
     return (
