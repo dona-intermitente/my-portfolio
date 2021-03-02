@@ -21,7 +21,7 @@ html {
     html {
         --display: 24px var(--font1);
         --display-bold: bold 24px var(--font1);
-        --encabezado: 36px var(--font2);
+        --encabezado: 28px var(--font2);
         --title-light: lighter 24px var(--font2);
         --title-bold: bold 24px var(--font2);
         --subencabezado-light: lighter 20px var(--font2);

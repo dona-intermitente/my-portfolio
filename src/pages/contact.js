@@ -10,7 +10,7 @@ function Contact() {
       <div className="col-4">
         <Title data={Data.contact}/>
       </div>
-      <div className="col-4 text-title-bold">
+      <div className="col-4 text-title-light">
         <Form>
           <Page>
             <h1>Yo soy Sindi, ¿cómo te llamas?</h1>
@@ -21,7 +21,7 @@ function Contact() {
             <Select/>
           </Page>
           <Page>
-            <h1>Dejame tu e-mail, yo te contactare</h1>
+            <h1>Dejame tu e-mail, yo te contactaré</h1>
             <input type="email"/>
           </Page>
         </Form>
