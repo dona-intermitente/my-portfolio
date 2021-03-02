@@ -2,6 +2,7 @@ import Title from 'components/title';
 import Data from 'data/title';
 
 import Form, { Page } from 'components/formCarousel'
+import Select from "components/select";
 
 function Contact() {
   return (
@@ -17,6 +18,7 @@ function Contact() {
           </Page>
           <Page>
             <h1>¿Que tipo de proyecto quieres hacer?</h1>
+            <Select/>
           </Page>
           <Page>
             <h1>Dejame tu e-mail, yo te contactare</h1>

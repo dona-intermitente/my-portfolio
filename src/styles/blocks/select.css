@@ -1,0 +1,41 @@
+.select a {
+    width: 60%;
+    height: 40px;
+    padding: 8px;
+    margin: auto;
+    border: 3px solid var(--violet-light);
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+.select div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.select p {
+    position: absolute;
+}
+
+.select input {
+    appearance: none;
+    margin: auto;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.select form {
+    display: none;
+}
+
+.select a:focus + form, .select form:hover {
+    display: block;
+    position: fixed;
+    left: 20%;
+    right: 20%;
+}
