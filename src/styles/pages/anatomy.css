@@ -1,0 +1,52 @@
+.BrainhubCarousel__track {
+    overflow: visible !important;
+}
+
+.anatomy li {
+    flex-direction: column;
+} 
+
+.item1, .item2 {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    padding: 10%;
+}
+
+.item1 {
+    flex-direction: column;
+}
+
+.item2 {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+.item2 a:hover, .item1 a:hover {
+    cursor:default;
+}
+
+.item1 .line {
+    border-bottom: 3px solid var(--gray-light);
+    border-left: 3px solid var(--gray-light);
+    width: 20%;
+    height: 30%;
+}
+
+.item2 .line {
+    border-top: 3px solid var(--gray-light);
+    border-right: 3px solid var(--gray-light);
+    width: 20%;
+    height: 30%;
+}
+
+.anatomy .image {
+    margin: 20% 0;
+}
+
+.anatomy .image img {
+    max-height: 150px;
+}

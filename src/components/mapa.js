@@ -6,7 +6,7 @@ class Mapa extends Component {
         return (
             <React.Fragment>
                 {this.props.data.map(s => (
-                    <div className={s.alias + " col-2"}>
+                    <div className={s.class + " col-2"}>
                         <Link to={s.url}>
                             {s.name}
                         </Link>
@@ -14,12 +14,9 @@ class Mapa extends Component {
                     </div>
                 )
                 )}
-                {this.props.imagen.map(i => (
-                    <a href={i.routeImg} className="image" title={i.text}>
-                        <img src={i.img} alt={i.alt} />
-                    </a>
-                )
-                )}
+                <a href={this.props.img.routeImg} className="image" title={this.props.img.text}>
+                    <img src={this.props.img.src} alt={this.props.img.alt} />
+                </a>
             </React.Fragment>
         )
     }

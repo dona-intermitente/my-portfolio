@@ -1,30 +1,66 @@
 import Dona from 'images/logo.svg';
 
-const Menu = [
+const mapas = [
     {
-        name:'Proyectos',
-        alias:'projects',
-        url:'/projects/'
+        image: {
+            src: Dona,
+            alt: 'Dona',
+        },
+        menu: [
+            {
+                name:'María Da Conceicao (sindi)',
+                class:'item3',
+            },
+        ]
     },
     {
-        name:'Trabajando en',
-        alias:'working',
-        url:'/working/'
+        image: {
+            src: Dona,
+            alt: 'Dona',
+        },
+        menu: [
+            {
+                name:'Locura',
+                class:'item1',
+            },
+            {
+                name:'Optimismo',
+                class:'item2',
+            },
+        ]
     },
     {
-        name:'Contacto',
-        alias:'contact',
-        url:'/contact/'
-    }
-];
-
-const Imagen = [
+        image: {
+            src: Dona,
+            alt: 'Dona',
+        },
+        menu: [
+            {
+                name:'Empatia',
+                class:'item1',
+            },
+            {
+                name:'Lógica',
+                class:'item2',
+            },
+        ]
+    },
     {
-        img: Dona,
-        alt: 'Dona',
-        text:'Anatomy de una dona',
-        routeImg:'/anatomy/'
-    }
+        image: {
+            src: Dona,
+            alt: 'Dona',
+        },
+        menu: [
+            {
+                name:'Ingenio',
+                class:'item1',
+            },
+            {
+                name:'Pasión',
+                class:'item2',
+            },
+        ]
+    },
 ]
 
-export {Menu, Imagen};
+export default mapas;

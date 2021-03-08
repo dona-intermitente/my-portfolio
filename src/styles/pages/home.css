@@ -43,7 +43,7 @@
     height: 60%;
 }
 
-.image {
+.menu .image {
     display: flex;
     position: absolute;
 }
