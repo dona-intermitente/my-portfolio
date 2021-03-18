@@ -5,26 +5,65 @@ const workingData = [
         img: p1,
         text1: 'Catalogo de donas',
         text2: '25/01/2021',
+        content: [
+            {
+                img2: p1,
+                text3: 'texto aqui',
+            },
+            {
+                img2: p1,
+                text3: 'texto aqui',
+                class: 'revers',
+            }
+        ]
     },
     {
         img: p1,
         text1: 'Catalogo de donas',
         text2: '25/01/2021',
+        content: [
+            {
+                img2: p1,
+                text3: 'texto aqui',
+            },
+            {
+                img2: p1,
+                text3: 'texto aqui',
+                class: 'revers',
+            }
+        ]
     },
     {
         img: p1,
         text1: 'Catalogo de donas',
         text2: '25/01/2021',
+        content: [
+            {
+                img2: p1,
+                text3: 'texto aqui',
+            },
+            {
+                img2: p1,
+                text3: 'texto aqui',
+                class: 'revers',
+            }
+        ]
     },
     {
         img: p1,
         text1: 'Catalogo de donas',
         text2: '25/01/2021',
-    },
-    {
-        img: p1,
-        text1: 'Catalogo de donas',
-        text2: '25/01/2021',
+        content: [
+            {
+                img2: p1,
+                text3: 'texto aqui',
+            },
+            {
+                img2: p1,
+                text3: 'texto aqui',
+                class: 'revers',
+            }
+        ]
     },
 ];
 

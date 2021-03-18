@@ -50,3 +50,21 @@ a {
   color: var(--violet);
   text-decoration: none;
 }
+
+@media (min-width: 800px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: white; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--gray-light);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--gray); 
+  }
+}
