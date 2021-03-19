@@ -1,0 +1,42 @@
+{
+    "Home":
+    [
+        {
+            "zic": {"bottom": "20%", "left": "80%" },
+            "onda": {"top": "20%", "right": "80%"},
+            "circles": {"bottom": 0, "right": "80%"}
+        }
+    ],
+    "Project":
+    [
+        {
+            "zic": {"top": "15%", "left": "80%" },
+            "onda": {"top": "20%", "right": "80%"},
+            "circles": {"display": "none"}
+        }
+    ],
+    "Working":
+    [
+        {
+            "zic": {"top": "15%", "left": "80%" },
+            "onda": {"top": "20%", "right": "80%"},
+            "circles": {"display": "none"}
+        }
+    ],
+    "Anatomy":
+    [
+        {
+            "zic": {"top": "15%", "left": "80%" },
+            "onda": {"display": "none"},
+            "circles": {"top": "20%", "right": "80%"}
+        }
+    ],
+    "Contact":
+    [
+        {
+            "zic": {"bottom": "20%", "left": "80%" },
+            "onda": {"bottom": "10%", "right": "80%"},
+            "circles": {"top": "10%", "right": "80%"}
+        }
+    ]
+}

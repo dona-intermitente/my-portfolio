@@ -7,9 +7,13 @@ import mapas from 'data/anatomyData'
 import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 
+import backData from "data/backgroundData.json";
+import Background from "components/background";
+
 function Anatomy() {
     return (
       <div className="grid">
+        <Background position={backData.Anatomy}/>
         <div className="col-4">
           <Title data={Data.anatomy}/>
         </div>

@@ -4,9 +4,13 @@ import Data from 'data/title';
 import Form, { Page } from 'components/formCarousel'
 import Select from "components/select";
 
+import backData from "data/backgroundData.json";
+import Background from "components/background";
+
 function Contact() {
   return (
     <div className="grid">
+      <Background position={backData.Contact}/>
       <div className="col-4">
         <Title data={Data.contact}/>
       </div>
