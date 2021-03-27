@@ -2,9 +2,9 @@
     "Home":
     [
         {
-            "zic": {"bottom": "20%", "left": "80%" },
+            "zic": {"bottom": "25%", "left": "80%" },
             "onda": {"top": "20%", "right": "80%"},
-            "circles": {"bottom": 0, "right": "80%"}
+            "circles": {"bottom": "10%", "right": "80%"}
         }
     ],
     "Project":
@@ -34,9 +34,9 @@
     "Contact":
     [
         {
-            "zic": {"bottom": "20%", "left": "80%" },
-            "onda": {"bottom": "10%", "right": "80%"},
-            "circles": {"top": "10%", "right": "80%"}
+            "zic": {"bottom": "25%", "left": "80%" },
+            "onda": {"bottom": "20%", "right": "80%"},
+            "circles": {"top": "20%", "right": "80%"}
         }
     ]
 }

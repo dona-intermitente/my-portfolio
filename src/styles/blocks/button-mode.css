@@ -32,6 +32,7 @@
 
 input:checked + .slider {
     border-color: var(--violet-light);
+    box-shadow: 0px 0px 10px var(--violet-light);
 }
   
 input:checked + .slider:before {
@@ -41,4 +42,5 @@ input:checked + .slider:before {
     content: "Light";
     border-color: var(--violet-light);
     color: var(--blue);
+    box-shadow: 0px 0px 10px var(--violet-light);
 }

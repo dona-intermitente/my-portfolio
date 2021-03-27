@@ -21,7 +21,7 @@ body {
 }
 
 body {
-  background-color: white;
+  background-color: var(--white);
 }
 
 h1,
@@ -57,7 +57,7 @@ a {
   }
   
   ::-webkit-scrollbar-track {
-    background: white; 
+    background: var(--white); 
   }
   
   ::-webkit-scrollbar-thumb {

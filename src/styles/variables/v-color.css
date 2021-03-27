@@ -1,4 +1,28 @@
-html {
+.dark {
+    --violet: white;
+    --violet-light: #7933B9;
+    --blue: #3FD2EF;
+    --yellow: #F4D451;
+    --pink: #EB6678;
+    --gray:  #BFB8C4;
+    --gray-light: #656172;
+    --white: #220E34;
+    background-color: #220E34;
+}
+
+.dark .zic {
+    filter:drop-shadow(0 0 10px var(--yellow))
+}
+
+.dark .onda {
+    filter:drop-shadow(0 0 10px var(--pink))
+}
+
+.dark .circles {
+    filter:drop-shadow(0 0 10px var(--violet-light))
+}
+
+.light {
     --violet: #220E34;
     --violet-light: #7933B9;
     --blue: #3FD2EF;
@@ -6,4 +30,5 @@ html {
     --pink: #EB6678;
     --gray: #656172;
     --gray-light: #BFB8C4;
+    --white: white;
 }
