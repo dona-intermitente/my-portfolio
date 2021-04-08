@@ -25,20 +25,20 @@
 }
 
 .projects .line {
-    border-bottom: 3px solid var(--gray-light);
-    border-left: 3px solid var(--gray-light);
+    border-bottom: 2px dashed var(--gray-light);
+    border-left: 2px dashed var(--gray-light);
     height: 100%;
 }
 
 .working .line {
-    border-bottom: 3px solid var(--gray-light);
-    border-right: 3px solid var(--gray-light);
+    border-bottom: 2px dashed var(--gray-light);
+    border-right: 2px dashed var(--gray-light);
     height: 30%;
 }
 
 .contact .line {
-    border-bottom: 3px solid var(--gray-light);
-    border-right: 3px solid var(--gray-light);
+    border-bottom: 3px dashed var(--gray-light);
+    border-right: 3px dashed var(--gray-light);
     width: 30%;
     height: 60%;
 }
@@ -54,6 +54,6 @@
 
 @media (min-width: 800px) {
     .image img {
-        min-width: 250px;
+        min-width: 350px;
     }
 }

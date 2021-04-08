@@ -4,6 +4,7 @@
 }
 
 .item {
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,10 +31,17 @@
 
 .item button {
     width: 90%;
+    height: 100%;
     background: none;
     padding: 0;
     border: none;
+    border-radius: 10px;
+    overflow: hidden;
     cursor: pointer;
+}
+
+.item button img {
+    min-height: 100%;
 }
 
 .popup-overlay {
@@ -56,7 +64,8 @@
 }
 
 .block p {
-    padding: 20px;
+    padding: 20px 40px;
+    line-height: 30px;
 }
 
 .close {
@@ -77,6 +86,7 @@
 
 @media (min-width: 800px) {
     .revers {
+        padding: 40px 0;
         flex-direction: row-reverse;
     }
     .modal .block {
@@ -84,9 +94,9 @@
         align-items: center;
     }
     .modal img {
-        width: 40%;
+        width: 60%;
     }
     .modal p {
-        width: 60%;
+        width: 40%;
     }
 }

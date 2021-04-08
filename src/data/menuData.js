@@ -1,12 +1,11 @@
-import Dona from 'images/logo.svg';
+import Dona from 'images/donut.svg';
 
 const menus = [
     {
         image: {
             src: Dona,
             alt: 'Dona',
-            text:'Anatomía de una dona',
-            routeImg:'/anatomy/'
+            text:'',
         },
         menu: [
             {
@@ -15,9 +14,9 @@ const menus = [
                 url:'/projects/'
             },
             {
-                name:'Trabajando en',
+                name:'Sobre mi',
                 class:'working',
-                url:'/working/'
+                url:'/anatomy/'
             },
             {
                 name:'Contacto',

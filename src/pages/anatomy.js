@@ -25,16 +25,13 @@ function Anatomy() {
           arrowRightDisabled={<i class="fas fa-arrow-right disable" name="arrow-right"></i>}
           addArrowClickHandler
           infinite={true}
-          centered={true}
-          offset={50}
+          offset={0}
           slidesPerPage={3}
           breakpoints={{
           800: {
-              offset: 40,
               slidesPerPage: 2,
           },
           400: {
-              offset: 30,
               slidesPerPage: 1,
           },
           }}

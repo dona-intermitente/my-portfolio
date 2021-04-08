@@ -22,6 +22,10 @@
     filter:drop-shadow(0 0 10px var(--violet-light))
 }
 
+.dark .image img {
+    filter: brightness(100);
+}
+
 .light {
     --violet: #220E34;
     --violet-light: #7933B9;
