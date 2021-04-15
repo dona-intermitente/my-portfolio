@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 export default function ButtonMode() {
     const [checked, setChecked] = useState(
-        localStorage.getItem("class") === "light" ? false : true
+        localStorage.getItem("class") === "dark" ? true : false
       );
     useEffect(() => {
         document
@@ -10,12 +10,12 @@ export default function ButtonMode() {
           .setAttribute("class", localStorage.getItem("class"));
       }, [checked]);
     const toggleThemeChange = () => {
-        if (checked === true) {
-          localStorage.setItem("class", "light");
-          setChecked(false);
-        } else {
+        if (checked === false) {
           localStorage.setItem("class", "dark");
           setChecked(true);
+        } else {
+          localStorage.setItem("class", "");
+          setChecked(false);
         }
     };
     console.log(checked)
