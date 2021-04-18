@@ -16,7 +16,7 @@ function Proyects() {
         <div className="col-4">
           <Title data={Data.projects}/>
         </div>
-        <div className="carousel col-4" >
+        <div className="carousel col-4 text-title-light" >
           <Slider data={projectsData}/>
         </div>
       </div>

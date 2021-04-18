@@ -141,7 +141,7 @@ export default class Form extends Component {
         <i className={this.currentPage <= 0 ? classNames('fas fa-arrow-left hide') : classNames('fas fa-arrow-left')} 
            onClick={this.prevPage} disabled={this.currentPage <= 0} ></i>
         <i
-          className={this.currentPage < this.lastPage ? classNames('fas fa-arrow-right') : classNames('text-title-light')}
+          className={this.currentPage < this.lastPage ? classNames('fas fa-arrow-right') : classNames('text-title-light enviar')}
           onClick={this.currentPage >= this.lastPage ? this.props.onSubmit : this.nextPage}>
           {this.currentPage >= this.lastPage ? " enviar" : null}
         </i>

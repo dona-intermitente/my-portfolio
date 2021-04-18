@@ -12,16 +12,16 @@ class Slider extends Component {
                 arrowRight={<i className="fas fa-arrow-right" name="arrow-right"></i>}
                 arrowRightDisabled={<i className="fas fa-arrow-right disable" name="arrow-right"></i>}
                 addArrowClickHandler
-                offset={40}
+                
                 slidesPerPage={3}
                 breakpoints={{
                 800: {
-                    offset: 30,
+                    
                     slidesPerPage: 2,
                 },
                 400: {
                     centered: true,
-                    offset: 20,
+                    
                     slidesPerPage: 1,
                 },
                 }}
@@ -42,7 +42,7 @@ class Slider extends Component {
                                 {s.content.map(i => (
                                     <div className={i.class + " block"}>
                                         <img src={i.img2} alt={i.text1}/>
-                                        <p className="text-body">
+                                        <p className="text-subencabezado-light">
                                             {i.text3}
                                         </p>
                                     </div>

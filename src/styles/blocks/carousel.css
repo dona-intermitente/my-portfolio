@@ -85,6 +85,9 @@
 }
 
 @media (min-width: 800px) {
+    .BrainhubCarousel__trackContainer{
+        margin-right: 20px;
+    }
     .revers {
         padding: 40px 0;
         flex-direction: row-reverse;

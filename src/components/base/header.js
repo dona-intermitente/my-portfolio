@@ -8,7 +8,9 @@ function Header() {
         <a href="/">
           <img src={Logo} alt="logo"/>
         </a>
-        <h1 className="text-display">Dona Intermitente</h1>
+        <a href="/">
+          <h1 className="text-display">Dona Intermitente</h1>
+        </a>
         <ButtonMode/>
       </div>
     </header>

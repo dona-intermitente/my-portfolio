@@ -1,5 +1,5 @@
 .dark {
-    --violet: white;
+    --violet: #fbf6ff;
     --violet-light: #7933B9;
     --blue: #3FD2EF;
     --yellow: #F4D451;
@@ -34,5 +34,5 @@ html {
     --pink: #EB6678;
     --gray: #656172;
     --gray-light: #BFB8C4;
-    --white: white;
+    --white: #fbf6ff;
 }

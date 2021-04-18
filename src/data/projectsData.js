@@ -54,19 +54,19 @@ const projectsData = [
             },
             {
                 img2: a2,
-                text3: '-Mejora en la experiencia de usuario',
+                text3: 'Mejora en la experiencia de usuario',
             },
             {
                 img2: a3,
-                text3: '-Coherencia estetica',
+                text3: 'Coherencia estetica',
             },
             {
                 img2: a4,
-                text3: '-Organización de la información',
+                text3: 'Organización de la información',
             },
             {
                 img2: a5,
-                text3: '-Accesibilidad',
+                text3: 'Accesibilidad',
             },
             {
                 img2: a6,
@@ -75,7 +75,7 @@ const projectsData = [
             },
             {
                 img2: a7,
-                text3: '-Adaptable a todo tipo de pantalla',
+                text3: 'Adaptable a todo tipo de pantalla',
                 class:'revers',
             }
         ]

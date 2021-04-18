@@ -23,6 +23,10 @@
     cursor: pointer;
 }
 
+.select p:hover {
+    color: var(--gray-light);
+}
+
 .select input {
     z-index: 1;
     appearance: none;
@@ -31,6 +35,7 @@
 }
 
 .select {
+    z-index: 1;
     display: none;
     background-color: var(--white);
 }
