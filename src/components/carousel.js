@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {Component } from 'react'
 import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import Popup from 'reactjs-popup';
@@ -41,6 +41,7 @@ class Slider extends Component {
                                 <div className="content">
                                 {s.content.map(i => (
                                     <div className={i.class + " block"}>
+                                        <div className="preloader"/>
                                         <img src={i.img2} alt={i.text1}/>
                                         <p className="text-subencabezado-light">
                                             {i.text3}
